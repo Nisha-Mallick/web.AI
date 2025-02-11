@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Papers | AI Compass</title>
+    <link rel="stylesheet" href="styles3.css">
+    <script defer src="scripts3.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Research Papers</h1>
+        <p>Dive Deep into Groundbreaking Research in AI & Machine Learning</p>
+        <div class="search-filter">
+            <input type="text" id="search-bar" placeholder="Search papers..." />
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="machine-learning">Machine Learning</option>
+                <option value="computer-vision">Computer Vision</option>
+                <option value="natural-language-processing">Natural Language Processing</option>
+                <option value="reinforcement-learning">Reinforcement Learning</option>
+                <option value="ethics">AI Ethics</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="papers-grid">
+        <div class="paper-card" data-category="machine-learning">
+            <h3>Deep Learning</h3>
+            <p>Yann LeCun, Yoshua Bengio, Geoffrey Hinton (2015)</p>
+            <p>A foundational paper on the advancements of deep learning.</p>
+            <div class="tags">Machine Learning</div>
+            <a href="https://doi.org/10.1038/nature14539" target="_blank" class="learn-more">Read Paper</a>
+        </div>
+
+        <div class="paper-card" data-category="computer-vision">
+            <h3>ImageNet Classification</h3>
+            <p>Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton (2012)</p>
+            <p>Breakthrough in computer vision using deep convolutional neural networks.</p>
+            <div class="tags">Computer Vision</div>
+            <a href="https://doi.org/10.1145/3065386" target="_blank" class="learn-more">Read Paper</a>
+        </div>
+
+        <div class="paper-card" data-category="natural-language-processing">
+            <h3>Attention Is All You Need</h3>
+            <p>Ashish Vaswani, Noam Shazeer, et al. (2017)</p>
+            <p>Introduced the Transformer architecture, revolutionizing NLP.</p>
+            <div class="tags">Natural Language Processing</div>
+            <a href="https://arxiv.org/abs/1706.03762" target="_blank" class="learn-more">Read Paper</a>
+        </div>
+
+        <div class="paper-card" data-category="ethics">
+            <h3>The Ethics of Artificial Intelligence</h3>
+            <p>Nick Bostrom, Eliezer Yudkowsky (2014)</p>
+            <p>An insightful look at the ethical implications of AI development.</p>
+            <div class="tags">AI Ethics</div>
+            <a href="https://nickbostrom.com/ethics/ai.pdf" target="_blank" class="learn-more">Read Paper</a>
+        </div>
+
+        <!-- Add more research papers here -->
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 AI Compass. All Rights Reserved.</p>
+        <a href="#">Suggest a Paper</a> | <a href="#">Subscribe</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f4f4f9;
+    --text-color: #333;
+    --accent-color: #00bcd4;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background: var(--primary-color);
+    color: white;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#search-bar {
+    padding: 0.5rem;
+    width: 60%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: var(--accent-color);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--accent-color);
+}
+
+.category {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: var(--primary-color);
+    transition: background 0.3s;
+}
+
+.category:hover {
+    background: white;
+    color: var(--primary-color);
+}
+
+.content {
+    padding: 2rem;
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.resource-card {
+    padding: 1rem;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.learn-more {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary-color);
+    color: white;
+}
+
+.footer nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: white;
+}

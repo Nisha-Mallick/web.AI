@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools | AI Compass</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>AI Toolbox</h1>
+        <p>Discover Your Next AI Superpower</p>
+        <div class="search-filter">
+            <input type="text" id="search-bar" placeholder="Search tools..." />
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="image-generation">Image Generation</option>
+                <option value="text-generation">Text Generation</option>
+                <option value="data-analysis">Data Analysis</option>
+                <option value="coding-assistance">Coding Assistance</option>
+                <option value="education">Education</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="tools-grid">
+        <div class="tool-card" data-category="text-generation">
+            <img src="https://via.placeholder.com/150" alt="ChatGPT Logo" />
+            <h3>ChatGPT</h3>
+            <p>Generate human-like text for conversations, writing, and more.</p>
+            <div class="tags">Text Generation</div>
+            <a href="https://chat.openai.com/" target="_blank" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="tool-card" data-category="image-generation">
+            <img src="https://via.placeholder.com/150" alt="DALL·E Logo" />
+            <h3>DALL·E</h3>
+            <p>Create stunning images from text prompts.</p>
+            <div class="tags">Image Generation</div>
+            <a href="https://openai.com/dall-e/" target="_blank" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="tool-card" data-category="data-analysis">
+            <img src="https://via.placeholder.com/150" alt="Tableau Logo" />
+            <h3>Tableau</h3>
+            <p>Analyze and visualize data for better decision-making.</p>
+            <div class="tags">Data Analysis</div>
+            <a href="https://www.tableau.com/" target="_blank" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="tool-card" data-category="coding-assistance">
+            <img src="https://via.placeholder.com/150" alt="GitHub Copilot Logo" />
+            <h3>GitHub Copilot</h3>
+            <p>Your AI-powered code completion assistant.</p>
+            <div class="tags">Coding Assistance</div>
+            <a href="https://github.com/features/copilot/" target="_blank" class="learn-more">Learn More</a>
+        </div>
+
+        <!-- Add more tools here -->
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 AI Compass. All Rights Reserved.</p>
+        <a href="#">Suggest a Tool</a> | <a href="#">Subscribe</a>
+    </footer>
+</body>
+</html>
